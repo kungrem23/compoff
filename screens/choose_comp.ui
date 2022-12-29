@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>zanyato</class>
+ <widget class="QMainWindow" name="zanyato">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="playComp1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="choose_label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>20</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выберите компьютер</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp6">
+    <property name="geometry">
+     <rect>
+      <x>269</x>
+      <y>70</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp9">
+    <property name="geometry">
+     <rect>
+      <x>269</x>
+      <y>160</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp8">
+    <property name="geometry">
+     <rect>
+      <x>269</x>
+      <y>130</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp7">
+    <property name="geometry">
+     <rect>
+      <x>269</x>
+      <y>100</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playComp10">
+    <property name="geometry">
+     <rect>
+      <x>269</x>
+      <y>190</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбрать комп 10</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="knowStats">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>341</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Узнать свою статистику</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zanyato_2">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>120</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Занято</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
